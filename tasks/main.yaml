@@ -1,0 +1,6 @@
+---
+- name: "Install python-openshift"
+  pip:
+    name: "{{ install_python_openshift_packages[(ansible_os_family | lower) + '_' + (ansible_architecture | lower)] }}"
+  tags:
+    - "python-openshift"

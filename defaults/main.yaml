@@ -1,0 +1,6 @@
+---
+install_python_openshift_packages:
+  debian: &debian
+    - "openshift"
+  debian_armv7l: *debian
+  debian_x86_64: *debian
