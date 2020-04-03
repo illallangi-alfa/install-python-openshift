@@ -1,1 +1,1 @@
-# install-python3-openshift
+# install-python-openshift
