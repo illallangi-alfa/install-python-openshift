@@ -1,8 +1,2 @@
 ---
 dependencies:
-  - src: "https://git@github.com/illallangi-alfa/configure-python-pip.git"
-    scm: git
-    version: master
-  - src: "https://git@github.com/illallangi-alfa/configure-python-setuptools.git"
-    scm: git
-    version: master
